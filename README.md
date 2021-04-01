@@ -2,7 +2,7 @@
 
 docker run \
   --rm \
-  --volume $PWD/models:/data \
+  --volume $PWD:/data \
   bentonam/fakeit \
   fakeit console \
   --count 10 \
