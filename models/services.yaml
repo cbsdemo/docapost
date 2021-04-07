@@ -1,0 +1,10 @@
+name: services
+type: object
+key: SERVICES
+data:
+  count: 3766
+properties:
+  SERVICES:
+    type: string
+    data:
+      build: "chance.string({length: 54, alpha: true, numeric: true})"

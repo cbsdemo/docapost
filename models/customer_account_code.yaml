@@ -1,0 +1,10 @@
+name: customer_account_code
+type: object
+key: CUSTOMER_ACCOUNT_CODE
+data:
+  count: 1711
+properties:
+  CUSTOMER_ACCOUNT_CODE:
+    type: string
+    data:
+      build: "chance.string({length: 8, alpha: true, numeric: true})"

@@ -1,0 +1,10 @@
+name: sms_short_code
+type: object
+key: SMS_SHORT_CODE
+data:
+  count: 10
+properties:
+  SMS_SHORT_CODE:
+    type: string
+    data:
+      build: "chance.string({length: 4, alpha: true, numeric: true})"

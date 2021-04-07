@@ -1,0 +1,10 @@
+name: offer_name
+type: object
+key: OFFER_NAME
+data:
+  count: 500
+properties:
+  OFFER_NAME:
+    type: string
+    data:
+      build: "chance.string({length: 13, alpha: true, numeric: true})"

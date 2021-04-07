@@ -1,0 +1,10 @@
+name: party_name_src
+type: object
+key: PARTY_NAME_SRC
+data:
+  count: 60
+properties:
+  PARTY_NAME_SRC:
+    type: string
+    data:
+      build: "chance.string({length: 16, alpha: true, numeric: true})"

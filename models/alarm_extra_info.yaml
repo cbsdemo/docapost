@@ -1,0 +1,10 @@
+name: alarm_extra_info
+type: object
+key: ALARM_EXTRA_INFO
+data:
+  count: 448
+properties:
+  ALARM_EXTRA_INFO:
+    type: string
+    data:
+      build: "chance.string({length: 100, alpha: true, numeric: true})"

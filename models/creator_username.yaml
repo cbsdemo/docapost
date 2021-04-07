@@ -1,0 +1,10 @@
+name: creator_username
+type: object
+key: CREATOR_USERNAME
+data:
+  count: 1030
+properties:
+  CREATOR_USERNAME:
+    type: string
+    data:
+      build: "chance.string({length: 8, alpha: true, numeric: true})"

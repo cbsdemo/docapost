@@ -1,0 +1,10 @@
+name: sms_msg
+type: object
+key: SMS_MSG
+data:
+  count: 39
+properties:
+  SMS_MSG:
+    type: string
+    data:
+      build: "chance.string({length: 12, alpha: true, numeric: true})"

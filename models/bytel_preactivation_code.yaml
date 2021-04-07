@@ -1,0 +1,10 @@
+name: bytel_preactivation_code
+type: object
+key: BYTEL_PREACTIVATION_CODE
+data:
+  count: 155
+properties:
+  BYTEL_PREACTIVATION_CODE:
+    type: string
+    data:
+      build: "chance.string({length: 5, alpha: true, numeric: true})"
