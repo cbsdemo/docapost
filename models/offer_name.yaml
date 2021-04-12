@@ -3,8 +3,10 @@ type: object
 key: OFFER_NAME
 data:
   count: 500
+  pre_run: |
+    globals.doc_count = 0;
 properties:
   OFFER_NAME:
     type: string
     data:
-      build: "chance.string({length: 13, alpha: true, numeric: true})"
+      build: "'OFFER_' + ++globals.doc_count"

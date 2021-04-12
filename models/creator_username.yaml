@@ -3,8 +3,10 @@ type: object
 key: CREATOR_USERNAME
 data:
   count: 1030
+  pre_run: |
+    globals.doc_count = 0;
 properties:
   CREATOR_USERNAME:
     type: string
     data:
-      build: "chance.string({length: 8, alpha: true, numeric: true})"
+      build: "'USER_' + ++globals.doc_count"
